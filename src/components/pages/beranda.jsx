@@ -9,7 +9,7 @@ import '../style/beranda.css'
 
 
 const images = [Kota1, Kota2, Kota3];
-const links = ['/lokasi', '/lokasi', '/lokasi'];
+const links = ['/toko', '/', '/'];
 
 const Home = () => {
     return (

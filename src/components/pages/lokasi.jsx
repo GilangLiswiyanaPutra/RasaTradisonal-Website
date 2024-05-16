@@ -1,12 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Kota1 from '../../assets/semarang.png'
 import Kota2 from '../../assets/solo.png'
 import Kota3 from '../../assets/tegal.png'
 import '../style/lokasi.css'
-// import Arrow from '../../assets/down.png'
 
 const images = [Kota1, Kota2, Kota3];
-const links = ['/', '/', '/'];
+const links = ['/toko', '/', '/'];
 
 const Lokasi = () => {
   return (
@@ -19,14 +19,13 @@ const Lokasi = () => {
       </div>
       <div className='prov'>
         <h2>Jawa Tengah</h2>
-        {/* <img src={Arrow} alt="" /> */}
       </div>
       <div className="place-img">
             <div className='scroll-img'>
                 {images.map((image, index) => (
-                    <a key={index} href={links[index]} rel="noopener noreferrer">
+                    <Link key={index} to={links[index]}>
                         <img src={image} alt={`Image ${index}`} />
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>
@@ -35,3 +34,4 @@ const Lokasi = () => {
 }
 
 export default Lokasi;
+

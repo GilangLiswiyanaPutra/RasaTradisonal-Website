@@ -12,8 +12,9 @@ const navbar = () => {
     <ul>
       <li><Link to="/">Beranda</Link></li>
       <li><Link to="/Lokasi">Lokasi</Link></li>
-      <li><Link to="/contact">Makanan & Minuman</Link></li>
-      <li><Link to="/contact">Tentang Kami</Link></li>
+      <li><Link to="/toko">Makanan & Minuman</Link></li>
+      <li><Link to="/Tentang_kami">Tentang Kami</Link></li>
+      <li><Link to="/Masuk">Masuk</Link></li>
     </ul>
   </nav>
 
