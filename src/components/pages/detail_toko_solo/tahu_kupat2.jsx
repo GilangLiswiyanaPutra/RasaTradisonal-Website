@@ -1,16 +1,18 @@
 import React from 'react';
-import Map from '../../assets/map.png'
-import Tokoimg from '../../assets/toko-img.png'
-import Back from '../../assets/back.png'
-import { IoMdCall, IoLogoInstagram } from "react-icons/io";
+import Map from '../../../assets/detail_toko_solo/map.png'
+import Tokoimg from '../../../assets/detail_toko_solo/tahukupat2.png'
+import Back from '../../../assets/back.png'
 
-import '../style/toko.css'
+
+import '../../style/toko.css'
 
 const DetailToko = () => {
   return (
     <section id="toko">
         <div className='back'>
+          <a href="/">
           <img src={Back} alt="" />
+          </a>
         </div>
        <div className="map">
                     <img src={Map} alt="logo" />
@@ -20,16 +22,16 @@ const DetailToko = () => {
                   <div className="toko-img-rating">
                       <img src={Tokoimg} alt="" />
                       <div className="rating-container">
-                          <h2>Nasi Liwet Sukini</h2>
-                          <p> 4.7⭐⭐⭐⭐</p>
+                          <h2>Tahu Kupat SOLO</h2>
+                          <p> 4.6⭐⭐⭐⭐</p>
                       </div>
                     </div>
                     <h3 className="addres-toko">Alamat</h3>
-                    <p>Jl. Parang Kusumo No.26, Sondakan, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57147</p>
+                    <p>Jl. Gajahmada No.100-94, Ketelan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57132</p>
                     <h1 className="info-toko">Kontak</h1>
-                    <p> <IoMdCall /> 0819081098080</p>
+                    <p>-</p>
                     <h1 className="info-toko">Sosial Media</h1>
-                    <p> <IoLogoInstagram /> @blablabla</p>
+                    <p>@blablabla</p>
                     <a href="https://www.google.com/maps/search/Nasi+Liwet+Sukini,+Jl.+Parang+Kusumo+No.26,+Sondakan,+Kec.+Laweyan,+Kota+Surakarta,+Jawa+Tengah+57147" target="_blank" rel="noopener noreferrer"><button>Mulai Navigasi</button></a>
                 </div>
                

@@ -4,7 +4,7 @@ import Navbar from './components/navigation/navbar'
 import Footer from './components/navigation/footer'
 import Beranda  from './components/pages/beranda'
 import Lokasi  from './components/pages/lokasi'
-import Toko  from './components/pages/toko'
+import Toko  from './components/pages/detail_toko_solo/serabi_solo2'
 
 const App = () => {
   return (
